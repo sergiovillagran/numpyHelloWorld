@@ -1,5 +1,5 @@
-import numpy as np
-import matplotlib as mpl
+import numpy             as np
+import matplotlib        as mpl
 mpl.use('Agg');
 import matplotlib.pyplot as plt
 anlos = np.loadtxt('anlos.txt', delimiter = ';')
