@@ -9,3 +9,5 @@ print(datos.head(50))
 
 #datosResumidos = datos[['Header1', 'Header2', 'Header3']]
 print(datos.corr())
+
+datos.plot.scatter('DIA', 'HORA')
