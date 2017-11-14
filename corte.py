@@ -3,7 +3,7 @@ import matplotlib as mpl
 mpl.use('Agg')
 import matplotlib.pyplot as plt
 
-datos = pd.read_csv("Delito_Hurto_Celulares.csv")
+datos = pd.read_csv('./Delito_Hurto_Celulares.csv')
 print(datos.head(50))
 print(datos.describre())
 
