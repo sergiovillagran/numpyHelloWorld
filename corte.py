@@ -10,4 +10,6 @@ print(datos.head(50))
 #datosResumidos = datos[['Header1', 'Header2', 'Header3']]
 print(datos.corr())
 
+fig = plt.gcf()
 datos.plot.scatter('DIA', 'HORA')
+fig.savefig('out.png')
